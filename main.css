@@ -617,14 +617,20 @@ a.anchor_top {
         margin-bottom:80px;
     }
     #contact_form input {
-        width: 100%;
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
     }
     #contact_form textarea {
-        width: 100%;
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
         height: 100px;
     }
     #contact_form .button_row input {
-        width: 100%;
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
         height: 40px;
     }
 
