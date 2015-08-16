@@ -1,0 +1,231 @@
+body{
+	background:#666666;
+	font-family:Courier,monospace;
+	font-size:18px;
+	line-height:24px;
+}
+
+
+
+h4{
+	color:#ffffff;
+}
+
+
+
+img{
+	border:0;
+}
+
+
+
+#main{
+	width:500px;
+	margin-left:auto;
+	margin-right:auto;
+	background:#c5b395;
+	padding:20px 20px 20px 20px;
+}
+
+
+
+.box{
+	height:auto;
+	margin-bottom:20px;
+}
+
+
+
+label.item{
+	display:block;
+	margin-bottom:5px;
+	border:solid 1px #000000;
+	padding:10px;
+	font-size:18px;
+	height:210px;
+	background:#ffffff;
+}
+
+
+
+label.item:hover{
+  border:solid 1px #917e5d;
+  cursor:pointer;
+  color:#917e5d;
+  font-weight:bold;
+}
+
+
+
+.item input{
+	margin-right:10px;
+}
+
+
+
+.info{
+  text-align:right;
+  vertical-align: text-top;
+  float:right;
+}
+
+
+
+.description{
+	display:block;
+}
+
+
+
+.info img{
+  width:150px;
+  height:150px;
+  vertical-align: text-top;
+  margin-top:5px;
+  margin-left:10px;
+}
+
+
+#box_tax{
+	text-align:right;
+}
+
+
+#box_submitted{
+	margin-top:40px;
+}
+
+
+.submit{
+	width:140px;
+	height:40px;
+	font-size:16px;
+	margin-top:22px;
+	background:#ffffff;
+	border:solid 1px #000000;
+}
+
+
+
+.submit:hover{
+	border:solid 1px #917e5d;
+	color:#917e5d;
+}
+
+
+
+#status_1,
+#status_2{
+	display:none;
+	text-align:right;
+}
+
+
+
+#products_status,
+#addons_status{
+	font-weight:bold;
+	color:#ffffff;
+}
+
+
+
+p#total_par{
+	text-align:right;
+	color:#ffffff;
+	font-weight:bold;
+	margin-top:20px;
+}
+
+
+
+span#tax{
+	color:#ffffff;
+	font-weight:bold;
+}
+
+
+
+p#exit_links{
+	margin-top:60px;
+}
+
+
+
+a.exit_link{
+	color:#000000;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+
+
+a.exit_link:hover{
+	text-decoration:underline;
+}
+
+
+
+a.input_link{
+	text-decoration:none;
+}
+
+
+
+@media (min-width: 301px) and (max-width: 600px) {
+	#main{
+		width:92%;
+		padding-left:4%;
+		padding-right:4%;
+	}
+
+
+
+	.info img{
+	  margin-left:10px;
+	}
+}
+
+
+
+@media (min-width: 301px) and (max-width: 500px) {
+
+	.info{
+	  width:300px;
+	}
+}
+
+
+
+@media (min-width: 301px) and (max-width: 405px) {
+
+	body{
+		font-size:16px;
+		line-height:20px;
+	}
+
+	#logo{
+		width:100%;
+		height:auto;
+	}
+
+	.description{
+		font-size:14px;
+		line-height:18px;
+	}
+
+	label.item{
+		height:130px;
+	}	
+
+	.info{
+		margin-top:-25px;
+	}
+
+	.info img{
+		margin-left:10px;
+		width:100px;
+		height:auto;
+	}	
+
+}

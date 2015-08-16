@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Heyday Computing</title>
+
+<link rel="stylesheet" href="assets_shoppingCart/shoppingCart.css" type="text/css">
+
+</head>
+<body>
+
+<div id="main">
+
+	<a href="shoppingCart.html"><img src="assets_shoppingCart/logo.jpg" id="logo"info alt="HEYDAY COMPUTING | All our products have long turned yellow... guaranteed." /></a>
+
+	<!-- PRODUCTS BOX -->
+	<p id="status_1"><u>Your purchase:</u><br /><span id="products_status"></span></p>
+	<p id="status_2"><u>Your add-ons:</u><br /><span id="addons_status"></span></p>
+	<p id="total_par">Total: $<span id="total">0.00</span></p>
+
+	<div id="box_1" class="box">
+		<h4>Choose your base model:</h4>
+		<label class="item">
+		  <input type="radio" name="products" value="249.99">
+		  <div class="info">
+    		  <span class="description">Model #1: $249.99</span>
+    		  <img src="assets_shoppingCart/model1.jpg"info />
+		  </div>
+		</label>
+		<label class="item">
+		  <input type="radio" name="products" value="349.99">
+		  <div class="info">
+    		  <span class="description">Model #2: $349.99</span>
+    		  <img src="assets_shoppingCart/model2.jpg"info />
+		  </div>
+		</label>
+		<label class="item">
+		  <input type="radio" name="products" value="399.99">
+		  <div class="info">
+    		  <span class="description">Model #3: $399.99</span>
+    		  <img src="assets_shoppingCart/model3.jpg"info />
+		  </div>
+		</label>
+
+		<a href="#" class="input_link"><input type="submit" class="submit" id="submit1" value="Next &raquo;" onclick="checkAddons();" disabled></a>
+	</div>
+
+
+
+	<!-- ADD-ONS BOX -->
+	<div id="box_2" class="box">
+		<h4>Choose your accessories:</h4>
+		<label class="item">
+		<input type="checkbox" name="addons" value="15.99">
+		  <div class="info">
+    		  <span class="description">Mouse: $15.99</span>
+    		  <img src="assets_shoppingCart/mouse.jpg"info />
+		  </div>
+		</label>
+		<label class="item">
+		<input type="checkbox" name="addons" value="25.99">
+		  <div class="info">
+    		  <span class="description">Keyboard: $25.99</span>
+    		  <img src="assets_shoppingCart/keyboard.jpg"info />
+		  </div>
+		</label>
+		<label class="item">
+		<input type="checkbox" name="addons" value="45.99">
+		  <div class="info">
+    		  <span class="description">Inkjet Printer: $45.99</span>
+    		  <img src="assets_shoppingCart/printer.jpg"info />
+		  </div>
+		</label>
+		<label class="item">
+		<input type="checkbox" name="addons" value="19.99">
+		  <div class="info">
+    		  <span class="description">Floppy Disks (6x): $19.99</span>
+    		  <img src="assets_shoppingCart/floppy.jpg"info />
+		  </div>
+		</label>
+		<label class="item">
+		<input type="checkbox" name="addons" value="17.99">
+		  <div class="info">
+    		  <span class="description">That air thingie: $17.99</span>
+    		  <img src="assets_shoppingCart/cleaner.jpg"info />
+		  </div>
+		</label>
+		<label class="item">
+		<input type="checkbox" name="addons" value="37.99">
+		  <div class="info">
+    		  <span class="description">Blue Screen Fixer: $37.99</span>
+    		  <img src="assets_shoppingCart/bat.jpg"info />
+		  </div>
+		</label>
+		<a href="#" class="input_link"><input type="submit" class="submit" value="Checkout &raquo;" onclick="updateTax();"></a><br />
+		<a href="#" class="input_link"><input type="submit" class="submit" value="&laquo; Back" onclick="checkProducts();"></a>
+	</div>
+
+
+
+	<!-- TAX BOX -->
+	<div id="box_tax" class="box">
+		<u>+ 12% sales tax:</u><br /><span id="tax"></span><br />
+		<a href="#" class="input_link"><input type="submit" class="submit" value="Submit Order &raquo;" onclick="submitted();"></a><br />
+		<a href="#" class="input_link"><input type="submit" class="submit" value="&laquo; Back" onclick="checkAddons();"></a>
+	</div>
+
+	<div id="box_submitted" class="box">
+		Thank you! Your order has been&nbsp;submitted.
+	</div>
+
+	<p id="exit_links">
+		<a href="shoppingCart.html" class="exit_link">Start over &raquo;</a><br />
+		<a href="../../index.html#samples_anchor" class="exit_link">Back to portfolio &raquo;</a>
+	</p>
+
+</div>
+
+
+
+
+
+<script src="assets_shoppingCart/shoppingCart.js"></script>
+</body>
+</html>
