@@ -1,12 +1,12 @@
 /* Universal styles */
 
 @font-face{
-    font-family: indexCustom;
-    src: url(infini-romain.otf);
+    font-family: LiberationSans;
+    src: url(assets/LiberationSans-Regular.ttf);
 }
 
 body {
-    font-family: indexCustom, Helvetica, sans-serif;
+    font-family: LiberationSans, Helvetica, sans-serif;
     background: #ffffff;
     width: 100%;
     margin: 0;
