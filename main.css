@@ -1,7 +1,12 @@
 /* Universal styles */
 
+@font-face{
+    font-family: indexCustom;
+    src: url(infini-romain.otf);
+}
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: indexCustom, Helvetica, sans-serif;
     background: #ffffff;
     width: 100%;
     margin: 0;
@@ -277,7 +282,7 @@ a.anchor_top {
 }
 #contact_form input,
 #contact_form textarea {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: indexCustom, Helvetica, sans-serif;
     font-size: 20px;
     line-height: 28px;
     color: #4b4b4b;
