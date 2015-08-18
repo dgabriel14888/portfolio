@@ -320,9 +320,9 @@ a.anchor_top {
     margin-bottom:5px;
     font-size:20px;
     line-height:24px;
-    color:#f4a460;
+    color:#669966;
     font-weight:bold;
-    display:none;
+    display:block;
     }
 #form_validated{
     margin-top:15px;

@@ -24,10 +24,10 @@ $(document).ready(function(){
               var name_length = $("#name_field").val().length;
 
                   if(name_length < 1){
-                    $("#name_validation").css("display","block");
+                    $("#name_validation").css("color","#f4a460");
                   }
                   else{
-                    $("#name_validation").css("display","none");
+                    $("#name_validation").css("color","#669966");
                   }
             });
 
@@ -38,10 +38,10 @@ $(document).ready(function(){
               var email_length = $("#email_field").val().length;
 
                   if(email_length < 1){
-                    $("#email_validation").css("display","block");
+                    $("#email_validation").css("color","#f4a460");
                   }
                   else{
-                    $("#email_validation").css("display","none");
+                    $("#email_validation").css("color","#669966");
                   }
             });
 
@@ -52,10 +52,10 @@ $(document).ready(function(){
               var message_length = $("#message_field").val().length;
 
                   if(message_length < 1){
-                    $("#message_validation").css("display","block");
+                    $("#message_validation").css("color","#f4a460");
                   }
                   else{
-                    $("#message_validation").css("display","none");
+                    $("#message_validation").css("color","#669966");
                   }
             });
 
