@@ -227,7 +227,7 @@ img.headshot {
     transition: transform .2s ease;
 }
 #samples div.box img:hover,
-#samples div.box img:focus {
+#samples div.box img:active {
     transform: scale(.98);
     transition: transform .2s ease;
 }
