@@ -311,6 +311,11 @@ a.anchor_top {
     background:#669966;
     color:#ffffff;
     box-shadow:.5px .5px 3px #888888;
+    transition: .2s;
+    -o-transition: .2s;
+    -ms-transition: .2s;
+    -moz-transition: .2s;
+    -webkit-transition: .2s;
 }
 #contact_form .button_row input:hover,
 #contact_form .button_row input:active {
@@ -318,6 +323,11 @@ a.anchor_top {
     height: 48px;
     margin-top:2px;
     box-shadow:none;
+    transition: .2s;
+    -o-transition: .2s;
+    -ms-transition: .2s;
+    -moz-transition: .2s;
+    -webkit-transition: .2s;
 }
 
 /* Contact Form - validation */
