@@ -1,0 +1,87 @@
+/* Universal styles */
+
+@font-face{
+    font-family: LiberationSans;
+    src: url(../assets/LiberationSans-Regular.ttf);
+}
+
+body {
+    font-family: LiberationSans, Helvetica, sans-serif;
+    background: $white;
+    width: 100%;
+    margin: 0;
+    color: #4b4b4b;
+    overflow-x: hidden;
+}
+h1 {
+    color: $green;
+    padding: 30px 0 0 0;
+    font-family:Helvetica, Arial, sans-serif;
+    font-size: 34px;
+    line-height: 40px;
+}
+h3 {
+    font-family:Helvetica, Arial, sans-serif;
+    color: $green;
+    padding: 10px 0 0 0;
+    margin: 0 0 0 0;
+}
+p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #4b4b4b;
+}
+p.margin_bottom {
+    margin-bottom: 80px;
+}
+p.margin_bottom2 {
+    margin-bottom: 60px;
+}
+span.highlight {
+    color: $green;
+}
+span.highlight2 {
+    color: #f4a460;
+}
+span.highlight3 {
+    color: #f4a460;
+    font-size: 30px;
+}
+a.fade {
+    color: $green;
+    font-weight: bold;
+    text-decoration: none;
+    transition: .4s;
+    -o-transition: .4s;
+    -ms-transition: .4s;
+    -moz-transition: .4s;
+    -webkit-transition: .4s;
+}
+a.fade:hover {
+    color: #f4a460;
+    text-decoration: none;
+    transition: .4s;
+    -o-transition: .4s;
+    -ms-transition: .4s;
+    -moz-transition: .4s;
+    -webkit-transition: .4s;
+}
+a.LinkedIn {
+    color: #4875b4;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .4s;
+    -o-transition: .4s;
+    -ms-transition: .4s;
+    -moz-transition: .4s;
+    -webkit-transition: .4s;
+}
+a.LinkedIn:hover {
+    color: #f4a460;
+    text-decoration: none;
+    transition: .4s;
+    -o-transition: .4s;
+    -ms-transition: .4s;
+    -moz-transition: .4s;
+    -webkit-transition: .4s;
+}
