@@ -235,9 +235,11 @@ a.anchor_top {
         margin-top:30px;
         margin-bottom: 100px;
     }
+
     .form_row {
         margin-bottom: 15px;
     }
+
     input,
     textarea {
         font-family: indexCustom, Helvetica, sans-serif;
@@ -248,24 +250,24 @@ a.anchor_top {
         -moz-border-radius: 5px;
         border-radius: 5px;
         border:solid 1px #aaaaaa;
+        margin-left:0;
+            
+            &:focus{
+            border: solid 4px $green;
+            outline: none;
+            padding-left:5px;
+            }
+
     }
+
     input {
         width: 380px;
 
-            &:focus{
-            border: solid 4px $green;
-            outline: none;
-            }
-
     }
+
     textarea {
         width: 380px;
         height: 150px;
-
-            &:focus{
-            border: solid 4px $green;
-            outline: none;
-            }
     }
 
     .button_row input {
@@ -498,12 +500,11 @@ a.anchor_top {
         margin: 0px auto;
         }
         #header_container #logo img {
-        width: 280px;
-        height: 70px;
+        width: 260px;
         height: auto;
         }
         #header_container #logo {
-        margin: 0 0 10px 20px;
+        margin: 0 0 20px 20px;
         float: left;
         }
         nav {
