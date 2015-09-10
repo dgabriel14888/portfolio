@@ -94,7 +94,7 @@ header {
   z-index: 100; }
   header #header_container {
     width: 900px;
-    margin: 0px auto; }
+    margin: 0 auto; }
     header #header_container #logo {
       float: left; }
     header #header_container #logo img {
@@ -133,14 +133,14 @@ header {
           -moz-transition: .4s;
           -webkit-transition: .4s; }
 
-#main {
+#content {
   background: #e7e9e8;
   background: url(../assets/background_body.jpg) repeat top right;
   width: 100%;
   overflow: auto;
   border-bottom: solid 5px #f4a460;
   margin-top: 130px; }
-  #main #container {
+  #content #main {
     width: 900px;
     margin: 0 auto; }
 
@@ -310,7 +310,7 @@ a.anchor_top {
     width: 96%;
     padding-left: 2%;
     padding-right: 2%;
-    margin: 0px auto; }
+    margin: 0 auto; }
   header nav {
     float: left;
     clear: both; }
@@ -321,13 +321,13 @@ a.anchor_top {
   header nav ul a {
     font-size: 18px; }
 
-  #main,
-  #main #container {
+  #content,
+  #content #main {
     width: 100%;
     min-width: 401px;
     max-width: 940px; }
 
-  #main {
+  #content {
     margin-top: 170px; }
 
   p#banner,
@@ -380,7 +380,7 @@ a.anchor_top {
     background: #558055; }
     header #header_container {
       width: 100%;
-      margin: 0px auto; }
+      margin: 0 auto; }
     header #header_container #logo img {
       width: 260px;
       height: auto; }
@@ -404,11 +404,11 @@ a.anchor_top {
       font-size: 14px;
       line-height: 20px; }
 
-  #main {
+  #content {
     width: 100%;
     overflow: auto;
     margin-top: 120px; }
-    #main #container {
+    #content #main {
       width: auto;
       min-width: 0px;
       max-width: 421px; }
