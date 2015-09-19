@@ -83,7 +83,7 @@ a.LinkedIn:hover {
   -webkit-transition: .4s; }
 
 header {
-  background: url(../assets/background_green.jpg) repeat top right;
+  background: #669966;
   width: 100%;
   padding-top: 10px;
   border-bottom: solid 5px #f4a460;
@@ -194,8 +194,7 @@ img.headshot {
       transition: transform .2s ease; }
 
 footer {
-  background: #75a375;
-  background: url(../assets/background_green.jpg) repeat top right;
+  background: #669966;
   width: 100%;
   overflow: auto;
   margin: 0 auto;
@@ -465,7 +464,6 @@ a.anchor_top {
     height: auto; }
 
   footer {
-    background: #558055;
     padding: 40px 0 40px 0; }
 
   footer #footer_text {

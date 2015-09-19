@@ -9,7 +9,7 @@
 
 
 header {
-    background: url(../assets/background_green.jpg) repeat top right;
+    background:$green;
     width: 100%;
     padding-top: 10px;
     border-bottom: solid 5px #f4a460;
@@ -186,8 +186,7 @@ img.headshot {
 
 
 footer {
-    background: #75a375;
-    background: url(../assets/background_green.jpg) repeat top right;
+    background:$green;
     width: 100%;
     overflow: auto;
     @include center;
