@@ -1,109 +1,254 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <link rel="stylesheet" href="styles/main.css" type="text/css" />
-        <link rel="shortcut icon" href="assets/icon.ico">
-        <title>Dmitriy Gabriel - Front End</title>
-    </head>
-    <body>
-        <header>
-            <div id="header_container">
-                <div id="logo"> <a href="http://dmitriygabriel.com/"><img src="assets/logo.png" border="0" alt="Dmitriy Gabriel | Front End" width="400" height="100" /></a> </div>
-                <nav>
-                    <ul>
-                        <li><a class="smooth_nav" href="#about_anchor">ABOUT&nbsp;ME</a></li>
-                        <li><a class="smooth_nav" href="#samples_anchor">SAMPLES</a></li>
-                        <li><a class="smooth_nav" href="#contact_anchor">GET&nbsp;IN&nbsp;TOUCH</a></li>
-                    </ul>
-                </nav>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="assets/icon.ico">
+    <title>Dmitriy Gabriel - Front End</title>
+
+	<link rel="stylesheet" href="styles/main.css" type="text/css" />
+
+</head>
+<body>
+
+	<!-- ANCHOR -->
+		<a href="#" id="top" class="anchor"></a>
+	<!-- END ANCHOR -->
+
+
+
+	<!-- Navigation -->
+	<header>
+		<nav class="navbar navbar-default navbar-fixed-top" id="navbar_fixed">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="http://dmitriygabriel.com/"><img src="assets/logo.png" alt="Dmitriy Gabriel | Front End" class="hidden-xs logo" /></a>
+						<a href="http://dmitriygabriel.com/"><img src="assets/logo2.png" alt="Dmitriy Gabriel" class="visible-xs-inline hidden-sm logo" /></a>
+
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+				</div> <!-- End Navbar Header -->
+				<div class="collapse navbar-collapse" id="navbar-collapse">
+
+					<ul class="nav navbar-nav">
+						<li><a class="smooth_nav" href="#about_anchor">ABOUT ME</a></li>
+						<li><a class="smooth_nav" href="#samples_anchor">SAMPLES</a></li>
+						<li><a class="smooth_nav" href="#contact_anchor">GET IN TOUCH</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+
+	<!-- Banner 1 -->
+	<section class="banner banner-top">
+		<div class="container">
+			<span class="highlight3">Hello. My name&rsquo;s&nbsp;Dmitriy.</span><br />I am a front-end developer based&nbsp;in&nbsp;Denver.<br />I want to help you code something&nbsp;pretty.
+		</div>
+	</section>
+
+
+	<!-- ANCHOR -->
+	<a href="#" id="about_anchor" class="anchor"></a>
+	<!-- END ANCHOR -->
+
+
+	<!-- About me -->
+ 	<div class="container">
+		<section class="margin-bottom-60">
+			<h1 class="margin-bottom-40">Who I am and&nbsp;what&nbsp;I&nbsp;do</h1>
+
+			<p><img src="assets/headshot.png" class="headshot" />I got my start in 2011 as an English major turned self-taught developer, and have been part of the industry for the past three years. I was an email developer at <span class="highlight">Merkle, Inc.</span> from 2013 to 2015; prior to that, I interned in front-end development at <span class="highlight">User Interface Engineering</span> and <span class="highlight">The&nbsp;Boston&nbsp;Globe</span>.<br /><br />
+            My areas of focus include <span class="highlight">HTML5</span>, <span class="highlight">CSS3</span>, <span class="highlight">JavaScript</span>, <span class="highlight">mobile-optimized design</span>, <span class="highlight">table-based layouts</span>, and some <span class="highlight">illustration</span>.<br /><br />
+            <a href="assets/resume.pdf" target="_blank" class="fade_custom">Click here</a> to view my résumé.</p>
+		</section>
+
+		<hr />
+
+	</div>
+
+	
+
+	<!-- ANCHOR -->
+	<a href="#" id="samples_anchor" class="anchor"></a>
+	<!-- END ANCHOR -->
+
+
+
+	<!-- Samples -->
+	<div class="container">
+		<section class="margin-bottom-60">
+			<h1 class="margin-bottom-40">Work Samples</h1>
+
+			<div class="row margin-bottom-20">
+				<div class="col-sm-3">
+					<a href="samples/shoppingCart"><img src="assets/sample1.jpg" alt="Shopping Cart: JavaScript" class="sample_image" /></a>
+				</div>
+				<div class="col-sm-9">
+					<p class="samples_paragraph">This is a mock shopping cart that I made for a mock company. I built this entirely in raw&nbsp;JavaScript.</p>
+				</div>
+			</div>
+			<hr />
+			<div class="row margin-bottom-20">
+				<div class="col-sm-3">
+					<a href="samples/PNC"><img src="assets/sample2.jpg" alt="Email Sample 1" class="sample_image" /></a>
+				</div>
+				<div class="col-sm-9">
+					<p class="samples_paragraph">This is an example of a responsive email, done for PNC Bank.</p>
+				</div>
+			</div>
+			<hr />
+			<div class="row margin-bottom-20">
+				<div class="col-sm-3">
+					<a href="samples/TIAA"><img src="assets/sample3.jpg" alt="Email Sample 2" class="sample_image" /></a>
+				</div>
+				<div class="col-sm-9">
+					<p class="samples_paragraph">This is another example of a fully responsive email. This one was made for TIAA-CREF.</p>
+				</div>
+			</div>
+			<hr />
+			<div class="row margin-bottom-20">
+				<div class="col-sm-3">
+					<a href="#collapse_illustrations" data-toggle="collapse"><img src="assets/sample4.jpg" alt="Illustrations" class="sample_image" /></a>
+				</div>
+				<div class="col-sm-9">
+					<p class="samples_paragraph">I'm a big fan of Adobe Illustrator. <a href="#collapse_illustrations" data-toggle="collapse" class="fade_custom">Click</a> to show my doodles.</p>
+				</div>
+			</div>
+
+
+			<!-- Illustrations -->
+			<section id="collapse_illustrations" class="collapse">
+				
+				<div class="row margin-bottom-40">
+					<div class="col-sm-6">
+						<div class="row margin-bottom-40-mb">
+							<div class="col-xs-6">
+								<img src="samples/assets_Illustrations/buddhabear.jpg" alt="Buddha Bear" class="illustration border-green" />
+							</div>
+							<div class="col-xs-6">
+								<img src="samples/assets_Illustrations/kittycop.jpg" alt="Kitty Cop" class="illustration border-green" />
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="row">
+							<div class="col-xs-6">
+								<img src="samples/assets_Illustrations/psyduck.jpg" alt="Psyduck" class="illustration border-green" />
+							</div>
+							<div class="col-xs-6">
+								<img src="samples/assets_Illustrations/owl.jpg" alt="Owl" class="illustration border-green" />
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row margin-bottom-40">
+					<div class="col-sm-6">
+						<div class="row margin-bottom-40">
+							<div class="col-xs-6">
+								<img src="samples/assets_Illustrations/beau.jpg" alt="Beach Dog" class="illustration border-green" />
+							</div>
+							<div class="col-xs-6">
+								<img src="samples/assets_Illustrations/deodorant.jpg" alt="Deodorant" class="illustration border-green" />
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="row">
+							<div class="col-xs-6">
+								<img src="samples/assets_Illustrations/van.jpg" alt="VW Van" class="illustration border-green" />
+							</div>
+							<div class="col-xs-6">
+								<img src="samples/assets_Illustrations/scumbagsteve.jpg" alt="Scumbag Steve" class="illustration border-green" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</section>
+		<hr />
+
+	</div>
+
+
+	<!-- ANCHOR -->
+	<a href="#" id="contact_anchor" class="anchor"></a>
+	<!-- END ANCHOR -->
+
+
+
+	<!-- Contact -->
+	<div class="container">
+		<section class="margin-bottom-60">
+			<h1>Get In Touch</h1>
+
+            <p>I am currently looking for new career opportunities around the Front Range. Please don't hesitate to get in&nbsp;touch.<br /><br />And come find me on <a href="https://github.com/dgabriel14888" target="_blank" class="LinkedIn">Github</a> and <a href="https://www.linkedin.com/pub/dmitriy-gabriel/37/aaa/2b3" target="_blank" class="LinkedIn">LinkedIn</a> as&nbsp;well.</p>
+
+
+            <div class="row">
+            	<div class="col-sm-8">
+					<div id="contact_form">
+						<form action="contact.php" method="post" id="ajax" class="form-inline">
+							<label>				
+								<div id="name_validation">Your&nbsp;name *</div>
+								<div class="form_row"><input type="text" name="name" class="text_field" id="name_field"></div>
+							</label>
+							<label>
+								<div id="email_validation">Your&nbsp;email *</div>
+								<div class="form_row"><input type="text" name="email" class="text_field" id="email_field"></div>
+							</label>
+							<label>
+								<div id="message_validation">Your&nbsp;message *</div>
+								<div class="form_row"><textarea name="message" class="text_field" id="message_field"></textarea></div>
+							</label>
+
+							<div class="button_row"><input type="submit" id="button" class="btn" value="Send" disabled="disabled"></div>
+							
+							<div id="form_validated">Thank you!</div>
+						</form>
+					</div>
+            	</div>
             </div>
-        </header>
-        <div id="content">
-            <div id="main" role="main">
+		</section>
+	</div>
 
 
-                <!-- ANCHOR -->
-                <a href="#" id="top_anchor" class="anchor_top"></a>
-                <!-- END ANCHOR -->
-               
 
-                <p id="banner"><span class="highlight3">Hello. My name&rsquo;s&nbsp;Dmitriy.</span><br />I am a front-end developer based&nbsp;in&nbsp;Denver.<br />I want to help you code something&nbsp;pretty.</p>
-               
-
-                <!-- ANCHOR -->
-                <a href="#" id="about_anchor" class="anchor"></a>
-                <!-- END ANCHOR -->
-               
-
-                <h1>Who I am and&nbsp;what&nbsp;I&nbsp;do</h1>
-                <p class="margin_bottom"><img src="assets/headshot.png" align="left" class="headshot" />I got my start in 2011 as an English major turned self-taught developer, and have been part of the industry for the past three years. I was an email developer at <span class="highlight">Merkle, Inc.</span> from 2013 to 2015; prior to that, I interned in front-end development at <span class="highlight">User Interface Engineering</span> and <span class="highlight">The&nbsp;Boston&nbsp;Globe</span>.<br /><br />
-                    My areas of focus include <span class="highlight">HTML5</span>, <span class="highlight">CSS3</span>, <span class="highlight">JavaScript</span>, <span class="highlight">mobile-optimized design</span>, <span class="highlight">table-based layouts</span>, and some <span class="highlight">illustration</span>.<br /><br />
-                    <a href="assets/resume.pdf" target="_blank" class="fade">Click here</a> to view my résumé.
-                </p>
-                
-
-                <!-- ANCHOR -->
-                <a href="#" id="samples_anchor" class="anchor"></a>
-                <!-- END ANCHOR -->
-                
-
-                <h1>Work Samples</h1>
-                
-                <p class="margin_bottom2">My learning is ongoing, and I will be updating this section frequently. Here are a few things that I have&nbsp;made.</p>
-                
-                <div id="samples">
-                    <a href="samples/shoppingCart"><div class="box"><img src="assets/sample1.jpg" alt="Shopping Cart: JavaScript" /></div></a>
-                    <a href="samples/PNC"><div class="box"><img src="assets/sample2.jpg" alt="Email Sample 1" /></div></a>
-                    <a href="samples/TIAA"><div class="box"><img src="assets/sample3.jpg" alt="Email Sample 2" /></div></a>
-                    <a href="samples/Illustrations"><div class="box"><img src="assets/sample4.jpg" alt="Illustrations" /></div></a>
-                </div>
-                
-
-                <!-- ANCHOR -->
-                <a href="#" id="contact_anchor" class="anchor"></a>
-                <!-- END ANCHOR -->
-                
-
-                <h1 id="contact">Get in touch</h1>
-                
-                <p>I am currently looking for new career opportunities around the Front Range. Please don't hesitate to get in&nbsp;touch.<br /><br />And come find me on <a href="https://github.com/dgabriel14888" target="_blank" class="LinkedIn">Github</a> and <a href="https://www.linkedin.com/pub/dmitriy-gabriel/37/aaa/2b3" target="_blank" class="LinkedIn">LinkedIn</a> as&nbsp;well.</p>
-
-                <div id="contact_form">
-                    <form action="contact.php" method="post" id="ajax">
-                        <div id="name_validation">Your&nbsp;name *</div>
-                        <div class="form_row"><input type="text" name="name" class="text_field" id="name_field"></div>
-                        <div id="email_validation">Your&nbsp;email *</div>
-                        <div class="form_row"><input type="text" name="email" class="text_field" id="email_field"></div>
-                        <div id="message_validation">Your&nbsp;message *</div>
-                        <div class="form_row"><textarea name="message" class="text_field" id="message_field"></textarea></div>
-                        <div class="button_row"><input type="submit" id="button" value="Send" disabled="disabled"></div>
-                        <div id="form_validated">Thank you!</div>
-                    </form>
-                </div>
+	<!-- Banner 2 -->
+	<section class="banner banner-bottom">
+		<div class="container">
+			Let us develop a great working&nbsp;relationship.<br />&ndash; Dmitriy<br /><a href="#top" class="smooth_nav fade_custom">Scroll back to the&nbsp;top</a>
+		</div>
+	</section>
 
 
-                <p id="banner2">Let us develop a great working&nbsp;relationship.<br />&ndash; Dmitriy<br /><a href="#top_anchor" class="fade">Scroll back to the&nbsp;top</a></p>
-            </div>
-        </div>
-        <footer>
-            <div id="footer_text">
-                This portfolio was made with <span class="highlight2">Sublime&nbsp;Text&nbsp;2</span> and <span class="highlight2">Photoshop/Illustrator&nbsp;CS5.</span><br /><span class="highlight2">Google</span>, <span class="highlight2">YouTube</span>, and <span class="highlight2">Stack&nbsp;Overflow</span> helped quite a bit as&nbsp;well.<br />
+
+	<!-- Footer -->
+	<footer>
+		<div class="container">
+            <section class="footer_text">
+                This portfolio was developed using <span class="highlight2">Bootstrap</span>, coded in <span class="highlight2">Sublime&nbsp;Text&nbsp;2</span>, and designed using <span class="highlight2">Photoshop/Illustrator&nbsp;CS5.</span><br />
                 &copy;2015. All rights reserved.
-            </div>
-        </footer>
+            </section>
+		</div>
+	</footer>
 
 
 
-
-
-        <!-- SCRIPTS -->
-        <script src="assets/jquery-1.11.2.min.js" type="text/javascript"></script>
-        <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
-        <script src="scripts/scroll.js"></script>
-        <script src="scripts/contact.js"></script>
-        <script src="scripts/form_validation.js"></script>
-    </body>
+	<!-- SCRIPTS -->
+	<script src="scripts/jquery-2.1.4.min.js"></script>
+	<script src="bootstrap/js/bootstrap.js"></script>
+	<script src="scripts/scroll.js"></script>
+	<script src="scripts/contact.js"></script>
+	<script src="scripts/form_validation.js"></script>
+</body>
 </html>
