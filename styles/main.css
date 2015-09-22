@@ -321,7 +321,7 @@ footer {
 /* Bootstrap Overwrites - MOBILE */
 @media (max-width: 767px) {
   .nav {
-    float: left; }
+    text-align: right; }
 
   #navbar-collapse li a {
     color: #ffffff;
