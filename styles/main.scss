@@ -1,5 +1,6 @@
 /* Bootstrap */
 @import url("../bootstrap/css/bootstrap.css");
+@import url("../lightbox/css/lightbox.css");
 @import "_variables";
 
 
@@ -81,7 +82,6 @@ a.fade_all {
 	-webkit-transition: .4s;
 
 	&:hover,&:active,&:focus{
-		color: $orange;
 		text-decoration: none;
 		transition: .4s;
 		-o-transition: .4s;
@@ -94,18 +94,41 @@ a.fade_all {
 a.fade_1{
 	color:$green1;
 	font-weight:bold;
+
+	&:hover,&:active,&:focus{
+		color: $orange;
+	}
 }
 a.fade_2{
 	color:$green1;
+	
+	&:hover,&:active,&:focus{
+		color: $orange;
+	}
 }
 a.fade_3{
 	color:#4875b4;
 	font-weight:bold;
+
+	&:hover,&:active,&:focus{
+	color: $orange;
+	}
+}
+a.fade_4{
+	color:$orange;
+	font-weight:bold;
+
+	&:hover,&:active,&:focus{
+	color: #ffbf88;
+	}
 }
 
 
 
 /* Margins, borders */
+.margin-top-40{
+	margin-top:40px;
+}
 .margin-bottom-20{
 	margin-bottom:20px;
 }

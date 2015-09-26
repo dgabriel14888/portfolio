@@ -1,5 +1,6 @@
 /* Bootstrap */
 @import url("../bootstrap/css/bootstrap.css");
+@import url("../lightbox/css/lightbox.css");
 /* Original Styles */
 body {
   margin-top: 80px;
@@ -65,7 +66,6 @@ a.fade_all {
   -moz-transition: .4s;
   -webkit-transition: .4s; }
   a.fade_all:hover, a.fade_all:active, a.fade_all:focus {
-    color: #f4a460;
     text-decoration: none;
     transition: .4s;
     -o-transition: .4s;
@@ -76,15 +76,30 @@ a.fade_all {
 a.fade_1 {
   color: #669966;
   font-weight: bold; }
+  a.fade_1:hover, a.fade_1:active, a.fade_1:focus {
+    color: #f4a460; }
 
 a.fade_2 {
   color: #669966; }
+  a.fade_2:hover, a.fade_2:active, a.fade_2:focus {
+    color: #f4a460; }
 
 a.fade_3 {
   color: #4875b4;
   font-weight: bold; }
+  a.fade_3:hover, a.fade_3:active, a.fade_3:focus {
+    color: #f4a460; }
+
+a.fade_4 {
+  color: #f4a460;
+  font-weight: bold; }
+  a.fade_4:hover, a.fade_4:active, a.fade_4:focus {
+    color: #ffbf88; }
 
 /* Margins, borders */
+.margin-top-40 {
+  margin-top: 40px; }
+
 .margin-bottom-20 {
   margin-bottom: 20px; }
 

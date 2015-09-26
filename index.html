@@ -9,6 +9,7 @@
     <title>Dmitriy Gabriel - Front End</title>
 
 	<link rel="stylesheet" href="styles/main.css" type="text/css" />
+	<link rel="stylesheet" href="lightbox/css/lightbox.css" type="text/css" />
 
 </head>
 <body>
@@ -92,7 +93,7 @@
 				<div class="col-sm-3">
 					<a href="samples/shoppingCart"><img src="assets/sample1.jpg" alt="Shopping Cart: JavaScript" class="sample_image" /></a>
 				</div>
-				<div class="col-sm-9">
+				<div class="col-sm-7">
 					<p class="samples_paragraph">This is a mock shopping cart that I made for a mock company. I built this entirely in raw&nbsp;JavaScript.</p>
 				</div>
 			</div>
@@ -101,7 +102,7 @@
 				<div class="col-sm-3">
 					<a href="samples/PNC"><img src="assets/sample2.jpg" alt="Email Sample 1" class="sample_image" /></a>
 				</div>
-				<div class="col-sm-9">
+				<div class="col-sm-7">
 					<p class="samples_paragraph">This is an example of a responsive email, done for PNC&nbsp;Bank.</p>
 				</div>
 			</div>
@@ -110,7 +111,7 @@
 				<div class="col-sm-3">
 					<a href="samples/TIAA"><img src="assets/sample3.jpg" alt="Email Sample 2" class="sample_image" /></a>
 				</div>
-				<div class="col-sm-9">
+				<div class="col-sm-7">
 					<p class="samples_paragraph">This is another example of a fully responsive email. This one was made for&nbsp;TIAA&#8209;CREF.</p>
 				</div>
 			</div>
@@ -119,34 +120,37 @@
 				<div class="col-sm-3">
 					<a href="#collapse_illustrations" data-toggle="collapse"><img src="assets/sample4.jpg" alt="Illustrations" class="sample_image" /></a>
 				</div>
-				<div class="col-sm-9">
-					<p class="samples_paragraph">I'm a big fan of Adobe Illustrator. <a href="#collapse_illustrations" data-toggle="collapse" class="fade_all fade_1">Click</a> to show my&nbsp;doodles.</p>
+				<div class="col-sm-7">
+					<p class="samples_paragraph">I'm a big fan of Adobe Illustrator. <a href="#collapse_illustrations" data-toggle="collapse" class="fade_all fade_1">Click</a> to show my doodles.
 				</div>
 			</div>
 
 
 
 			<!-- Illustrations -->
-			<section id="collapse_illustrations" class="collapse">
-				
+			<section id="collapse_illustrations" class="collapse margin-top-40">
+
+
+				<p><em>Click an image to&nbsp;expand it.</em></p>
 				<div class="row margin-bottom-40">
+					
 					<div class="col-sm-6">
 						<div class="row margin-bottom-40-mb">
 							<div class="col-xs-6">
-								<img src="samples/assets_Illustrations/buddhabear.jpg" alt="Buddha Bear" class="illustration border-green" />
+								<a href="samples/assets_Illustrations/buddhabear.jpg" data-lightbox="Buddha Bear"><img src="samples/assets_Illustrations/buddhabear.jpg" alt="Buddha Bear" class="illustration border-green" /></a>
 							</div>
 							<div class="col-xs-6">
-								<img src="samples/assets_Illustrations/kittycop.jpg" alt="Kitty Cop" class="illustration border-green" />
+								<a href="samples/assets_Illustrations/kittycop.jpg" data-lightbox="Kitty Kop"><img src="samples/assets_Illustrations/kittycop.jpg" alt="Kitty Cop" class="illustration border-green" /></a>
 							</div>
 						</div>
 					</div>
 					<div class="col-sm-6">
 						<div class="row">
 							<div class="col-xs-6">
-								<img src="samples/assets_Illustrations/psyduck.jpg" alt="Psyduck" class="illustration border-green" />
+								<a href="samples/assets_Illustrations/psyduck.jpg" data-lightbox="Brutal Psyduck"><img src="samples/assets_Illustrations/psyduck.jpg" alt="Brutal Psyduck" class="illustration border-green" /></a>
 							</div>
 							<div class="col-xs-6">
-								<img src="samples/assets_Illustrations/owl.jpg" alt="Owl" class="illustration border-green" />
+								<a href="samples/assets_Illustrations/owl.jpg" data-lightbox="Swinging Owl"><img src="samples/assets_Illustrations/owl.jpg" alt="Swinging Owl" class="illustration border-green" /></a>
 							</div>
 						</div>
 					</div>
@@ -156,20 +160,20 @@
 					<div class="col-sm-6">
 						<div class="row margin-bottom-40">
 							<div class="col-xs-6">
-								<img src="samples/assets_Illustrations/beau.jpg" alt="Beach Dog" class="illustration border-green" />
+								<a href="samples/assets_Illustrations/beau.jpg" data-lightbox="Beau the Dog"><img src="samples/assets_Illustrations/beau.jpg" alt="Beau the Dog" class="illustration border-green" /></a>
 							</div>
 							<div class="col-xs-6">
-								<img src="samples/assets_Illustrations/deodorant.jpg" alt="Deodorant" class="illustration border-green" />
+								<a href="samples/assets_Illustrations/deodorant.jpg" data-lightbox="Deodorant"><img src="samples/assets_Illustrations/deodorant.jpg" alt="Deodorant" class="illustration border-green" /></a>
 							</div>
 						</div>
 					</div>
 					<div class="col-sm-6">
 						<div class="row">
 							<div class="col-xs-6">
-								<img src="samples/assets_Illustrations/van.jpg" alt="VW Van" class="illustration border-green" />
+								<a href="samples/assets_Illustrations/van.jpg" data-lightbox="VW Van"><img src="samples/assets_Illustrations/van.jpg" alt="VW Van" class="illustration border-green" /></a>
 							</div>
 							<div class="col-xs-6">
-								<img src="samples/assets_Illustrations/scumbagsteve.jpg" alt="Scumbag Steve" class="illustration border-green" />
+								<a href="samples/assets_Illustrations/scumbagsteve.jpg" data-lightbox="Scumbag Steve"><img src="samples/assets_Illustrations/scumbagsteve.jpg" alt="Scumbag Steve" class="illustration border-green" /></a>
 							</div>
 						</div>
 					</div>
@@ -245,7 +249,7 @@
 	<footer>
 		<div class="container">
             <section class="footer_text">
-                This portfolio was developed using <span class="highlight2">Bootstrap</span>, coded in <span class="highlight2">Sublime&nbsp;Text&nbsp;2</span>, and designed using <span class="highlight2">Photoshop/Illustrator&nbsp;CS5.</span><br />
+                This portfolio was developed using <a href="http://getbootstrap.com/" target="_blank" class="fade_all fade_4">Bootstrap</a>, coded in <a href="http://www.sublimetext.com/" target="_blank" class="fade_all fade_4">Sublime&nbsp;Text&nbsp;2</a>, and designed using&nbsp;<a href="https://www.adobe.com/creativecloud.html?promoid=KLXLR" target="_blank" class="fade_all fade_4">Photoshop/Illustrator.</a><br />
                 &copy;2015. All rights reserved.
             </section>
 		</div>
@@ -256,8 +260,9 @@
 	<!-- SCRIPTS -->
 	<script src="scripts/jquery-2.1.4.min.js"></script>
 	<script src="bootstrap/js/bootstrap.js"></script>
+	<script src="lightbox/js/lightbox-plus-jquery.js"></script>
 	<script src="scripts/scroll.js"></script>
 	<script src="scripts/contact.js"></script>
-	<script src="scripts/form_validation.js"></script>
+	<script src="scripts/validation.js"></script>
 </body>
 </html>
